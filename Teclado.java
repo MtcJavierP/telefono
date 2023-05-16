@@ -18,6 +18,7 @@ public class Teclado {
             int nuevoDigito = rnd.nextInt(MAX_DIGITO);
             System.out.println("Pulsando: " + nuevoDigito);
             telefono.addDigito(nuevoDigito);
+	    System.out.println(nuevoDigito);	
         }
     }
     
